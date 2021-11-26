@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#encabezado{
+    width: 500px;
+    border: 1px solid rgb(40, 20, 170);
+    margin: 0px auto;
+
+}
+header{
+    text-align: center;
+    background-color: lightgreen;
+    height: 40px;
+    width: 100%;
+    color: white;
+}
+.title_img{
+    text-align: center;
+}
+.clearfix{
+    clear:both;
+}
+nav{
+    background: lightblue;
+    width: 100%;
+}
+a{
+    color: rgb(42, 175, 175);
+}
+#contenido{
+    float: left;
+    width: calc(80% - 40px);
+    background-color: rgb(216, 240, 241);
+    min-height: 515px;
+    line-height: 22px;
+    padding: 20px;
+
+}
+span{
+    opacity: 1;
+}
+aside{
+    width: calc(20% - 20px);
+    background: rgb(247, 215, 155);
+    float: left;
+    min-height: 630px;
+    padding: 10px;
+    
+}
+a:hover{
+    color: chartreuse;
+}
+.contact_aside{
+    min-height: 388px;
+}
+.send_data{
+    width:70px;
+    height: 25px;
+    min-height: 20px;
+    
+    
+}
+.articulo{
+    color: rgb(179, 47, 58);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid salmon;
+    
+}
+
+footer{
+    color: rgb(71, 30, 62);
+    min-height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: rgb(209, 203, 203);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+footer .text_footer:hover{
+    color: rgb(240, 240, 122);
+}
+.form_barralateral{
+    height: 200px;
+}
+nav ul li{
+    list-style: none;
+    margin:10px;
+    float: left;
+}
+.title_menu{
+    text-align: center;
+    color: burlywood;
+}
+.nav{
+    list-style: none;
+    margin: 10px;
+    float: left;
+    width: 255px;
+    border: 1px solid rgb(206, 55, 55);
+    margin: 10px auto;
+}
+*{
+    @media(max-width: 1200px);
+}
+.enviar{    
+    border-radius: 30%;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}

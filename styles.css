@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: modish, cursive, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+tr, th, td{
+  border: 2px solid #931042;
+}
+.logo{
+  width: 150px;
+  height:80px;
+  padding: 10px;
+  float: left;
+}
+aside{
+  width: 300px;
+  height: 500px;
+  background-color: #72c1c4;
+  float: left;
+  min-height: 630px;
+  padding: 10px;
+}
+
+body{
+  background: #e4b56e;
+  font-size: 'Mochiy Pop P One', sans-serif;
+}
+header{
+  background: #dfa02d;
+  width: 100%;
+  clear: both;
+  display: table;
+}
+nav{
+    float: right;
+}
+.menu{
+  width: 100%;
+  height: 20%;
+  
+}
+nav ul li{
+  list-style: none;
+  margin-left: 80px;
+  padding: 20px 0;
+  float: left;
+  position: relative;
+}
+nav ul li a:hover{
+  color: #f55003;
+}
+nav ul li a{
+  color: #632754;
+  text-decoration: none;
+  font-weight: hold;
+}
+
+ul li a:before{
+  display: block;
+  background: black;
+  width: 0%;
+  height: 7px;
+  position: absolute;
+  content: "";
+  top: 0;
+  transition: width 0.4s;
+}
+ul li a:hover::before{
+  display: block;
+  background: black;
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  content: "";
+  top: 0;
+}
+footer{
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background: #eca623;
+    color: black;
+}
+
+footer:hover{
+  text-align: center;
+  width: 100;
+  height: 40px;
+  background: #ffd038;
+  border: 2px solid #f0b3b6;
+}
+section{
+  width: 80%;
+}
+section article {
+  margin: 10px;
+  padding: 0;
+  width: 200px;
+  padding: 10px;
+  height: 200px;
+  background: chocolate;
+  float: left;
+  display: flex;
+  
+}
+section article h2{
+  text-align: center;
+}
+aside{
+  width: 200px;
+  height: 500px;
+  background-color: #d39c26;
+  float: right;
+  min-height: 630px;
+  padding: 10px;
+  width: calc(20% - 20px);
+
+  
+}
+.service{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: #625792;
+}
+
+label{
+  font-size: 25px;
+  text-align: center;
+}
+.title{
+  font-size: 30px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #1895b4;
+}
+.title__h1{
+  font-size: 1em;
+  line-height: 2;
+  font-weight: 700;/*grosor let*/
+}
+.contenedor{
+  font-size: 20px;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #72c1c4;
+}

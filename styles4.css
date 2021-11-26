@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img2.jpeg');
+}
+.form_register{
+    width: 400px;
+    background: #B6E3C4;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 10px 14px 30px #63b997;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form_register h4{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.caja_input .control2{
+    background: #f5c607;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 17px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.control{
+    width: 100%;
+    background: #64CEAC;
+    padding: 10px;
+    border-radius: 0%;
+    margin-bottom: 15px;
+    border: 2px solid #4CEDE3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: #166D4A;
+}
+.form_register p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+.form_register .title_form{
+    font-size: 30px;
+    color: #0d8070;
+    text-align: center;
+    
+}
+.form_register a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.form_register a{
+    color: white;
+    text-decoration: none;
+}
+.form_register .bottom:hover{
+    border-radius: 10px;
+    color: rgba(122, 226, 245, 0.699);
+    
+}
+.form_register .bottom{
+    background: #1b777e;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 17px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.contenedor-imagen{
+    background-color: aqua;
+}
+.body2{
+    background-image: url('example.jpeg');
+}
